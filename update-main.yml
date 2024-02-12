@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          repository: "ApplicationCovoiturageAndandoo/andandoo"
 
       - name: Push changes to main branch on all forks
         run: |
