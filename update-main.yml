@@ -12,7 +12,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          repository: "ApplicationCovoiturageAndandoo/andandoo"
+          repository: "leyeleye22/ApplicationCovoiturageAndandoo"
+          ref: "main"
 
       - name: Push changes to main branch on all forks
         run: |
